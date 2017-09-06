@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CED3F2E002087AAFFD64F3 /* libPods-通讯录练习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FF26B15610624C765E8FD5 /* libPods-通讯录练习.a */; };
 		C4E2E8B31F5E6A6600C3EB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8B21F5E6A6600C3EB23 /* main.m */; };
 		C4E2E8B61F5E6A6600C3EB23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8B51F5E6A6600C3EB23 /* AppDelegate.m */; };
-		C4E2E8B91F5E6A6600C3EB23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8B81F5E6A6600C3EB23 /* ViewController.m */; };
 		C4E2E8BC1F5E6A6600C3EB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E2E8BA1F5E6A6600C3EB23 /* Main.storyboard */; };
 		C4E2E8BE1F5E6A6600C3EB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E2E8BD1F5E6A6600C3EB23 /* Assets.xcassets */; };
 		C4E2E8C11F5E6A6600C3EB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E2E8BF1F5E6A6600C3EB23 /* LaunchScreen.storyboard */; };
 		C4E2E8CC1F5E6A6600C3EB23 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8CB1F5E6A6600C3EB23 /* _____Tests.m */; };
 		C4E2E8D71F5E6A6600C3EB23 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8D61F5E6A6600C3EB23 /* _____UITests.m */; };
+		C4E2E8EF1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4E2E8EE1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg */; };
+		C4E2E8F61F5E79F600C3EB23 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8F51F5E79F600C3EB23 /* BaseModel.m */; };
+		C4E2E8FA1F5E8E8500C3EB23 /* BMChineseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8F81F5E8E8500C3EB23 /* BMChineseSort.m */; };
+		C4E8D52C1F5F7FB4001FA0BF /* constantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8D5231F5F7FB4001FA0BF /* constantModel.m */; };
+		C4E8D52D1F5F7FB4001FA0BF /* constantsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8D5261F5F7FB4001FA0BF /* constantsTableViewCell.m */; };
+		C4E8D52E1F5F7FB4001FA0BF /* constantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E8D5271F5F7FB4001FA0BF /* constantsTableViewCell.xib */; };
+		C4E8D5341F5F7FFE001FA0BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8D5321F5F7FFE001FA0BF /* ViewController.m */; };
+		C4E8D5351F5F7FFE001FA0BF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E8D5331F5F7FFE001FA0BF /* ViewController.xib */; };
+		C4E8D5391F5F8638001FA0BF /* adressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8D5371F5F8638001FA0BF /* adressBookViewController.m */; };
+		C4E8D53A1F5F8638001FA0BF /* adressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E8D5381F5F8638001FA0BF /* adressBookViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20D3E2CD96A1AC44C2F95BC6 /* Pods-通讯录练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通讯录练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-通讯录练习/Pods-通讯录练习.release.xcconfig"; sourceTree = "<group>"; };
+		50FF26B15610624C765E8FD5 /* libPods-通讯录练习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-通讯录练习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B670FE212C9B07D4ABDA00F0 /* Pods-通讯录练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通讯录练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-通讯录练习/Pods-通讯录练习.debug.xcconfig"; sourceTree = "<group>"; };
 		C4E2E8AE1F5E6A6600C3EB23 /* 通讯录练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "通讯录练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E2E8B21F5E6A6600C3EB23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4E2E8B41F5E6A6600C3EB23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4E2E8B51F5E6A6600C3EB23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4E2E8B71F5E6A6600C3EB23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4E2E8B81F5E6A6600C3EB23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4E2E8BB1F5E6A6600C3EB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E2E8BD1F5E6A6600C3EB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E2E8C01F5E6A6600C3EB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,22 @@
 		C4E2E8D21F5E6A6600C3EB23 /* 通讯录练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "通讯录练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E2E8D61F5E6A6600C3EB23 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		C4E2E8D81F5E6A6600C3EB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E2E8EE1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "辛忠志的个人公众号二维码.jpg"; sourceTree = "<group>"; };
+		C4E2E8F41F5E79F600C3EB23 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		C4E2E8F51F5E79F600C3EB23 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		C4E2E8F71F5E8E8500C3EB23 /* BMChineseSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMChineseSort.h; sourceTree = "<group>"; };
+		C4E2E8F81F5E8E8500C3EB23 /* BMChineseSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMChineseSort.m; sourceTree = "<group>"; };
+		C4E8D5221F5F7FB4001FA0BF /* constantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constantModel.h; sourceTree = "<group>"; };
+		C4E8D5231F5F7FB4001FA0BF /* constantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constantModel.m; sourceTree = "<group>"; };
+		C4E8D5251F5F7FB4001FA0BF /* constantsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constantsTableViewCell.h; sourceTree = "<group>"; };
+		C4E8D5261F5F7FB4001FA0BF /* constantsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constantsTableViewCell.m; sourceTree = "<group>"; };
+		C4E8D5271F5F7FB4001FA0BF /* constantsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = constantsTableViewCell.xib; sourceTree = "<group>"; };
+		C4E8D5311F5F7FFE001FA0BF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4E8D5321F5F7FFE001FA0BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4E8D5331F5F7FFE001FA0BF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C4E8D5361F5F8638001FA0BF /* adressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adressBookViewController.h; sourceTree = "<group>"; };
+		C4E8D5371F5F8638001FA0BF /* adressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adressBookViewController.m; sourceTree = "<group>"; };
+		C4E8D5381F5F8638001FA0BF /* adressBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = adressBookViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23CED3F2E002087AAFFD64F3 /* libPods-通讯录练习.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B0FC17E0FE7F03C1AC5217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50FF26B15610624C765E8FD5 /* libPods-通讯录练习.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B0E9DF085502BFDA981212D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B670FE212C9B07D4ABDA00F0 /* Pods-通讯录练习.debug.xcconfig */,
+				20D3E2CD96A1AC44C2F95BC6 /* Pods-通讯录练习.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4E2E8A51F5E6A6600C3EB23 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				C4E2E8CA1F5E6A6600C3EB23 /* 通讯录练习Tests */,
 				C4E2E8D51F5E6A6600C3EB23 /* 通讯录练习UITests */,
 				C4E2E8AF1F5E6A6600C3EB23 /* Products */,
+				6B0E9DF085502BFDA981212D /* Pods */,
+				17B0FC17E0FE7F03C1AC5217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +148,16 @@
 		C4E2E8B01F5E6A6600C3EB23 /* 通讯录练习 */ = {
 			isa = PBXGroup;
 			children = (
+				C4E8D5201F5F7FB4001FA0BF /* 通讯录 */,
+				C4E2E8F91F5E8E8500C3EB23 /* BMChineseSort */,
+				C4E2E8F41F5E79F600C3EB23 /* BaseModel.h */,
+				C4E2E8F51F5E79F600C3EB23 /* BaseModel.m */,
+				C4E2E8EE1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg */,
 				C4E2E8B41F5E6A6600C3EB23 /* AppDelegate.h */,
 				C4E2E8B51F5E6A6600C3EB23 /* AppDelegate.m */,
-				C4E2E8B71F5E6A6600C3EB23 /* ViewController.h */,
-				C4E2E8B81F5E6A6600C3EB23 /* ViewController.m */,
+				C4E8D5311F5F7FFE001FA0BF /* ViewController.h */,
+				C4E8D5321F5F7FFE001FA0BF /* ViewController.m */,
+				C4E8D5331F5F7FFE001FA0BF /* ViewController.xib */,
 				C4E2E8BA1F5E6A6600C3EB23 /* Main.storyboard */,
 				C4E2E8BD1F5E6A6600C3EB23 /* Assets.xcassets */,
 				C4E2E8BF1F5E6A6600C3EB23 /* LaunchScreen.storyboard */,
@@ -140,6 +193,55 @@
 			path = "通讯录练习UITests";
 			sourceTree = "<group>";
 		};
+		C4E2E8F91F5E8E8500C3EB23 /* BMChineseSort */ = {
+			isa = PBXGroup;
+			children = (
+				C4E2E8F71F5E8E8500C3EB23 /* BMChineseSort.h */,
+				C4E2E8F81F5E8E8500C3EB23 /* BMChineseSort.m */,
+			);
+			name = BMChineseSort;
+			path = "../../../../../Downloads/BMChineseSort-master/BMChineseSorting/BMChineseStringSort";
+			sourceTree = "<group>";
+		};
+		C4E8D5201F5F7FB4001FA0BF /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8D5211F5F7FB4001FA0BF /* Model */,
+				C4E8D5241F5F7FB4001FA0BF /* View */,
+				C4E8D5281F5F7FB4001FA0BF /* ViewCotroller */,
+			);
+			path = "通讯录";
+			sourceTree = "<group>";
+		};
+		C4E8D5211F5F7FB4001FA0BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8D5221F5F7FB4001FA0BF /* constantModel.h */,
+				C4E8D5231F5F7FB4001FA0BF /* constantModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4E8D5241F5F7FB4001FA0BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8D5251F5F7FB4001FA0BF /* constantsTableViewCell.h */,
+				C4E8D5261F5F7FB4001FA0BF /* constantsTableViewCell.m */,
+				C4E8D5271F5F7FB4001FA0BF /* constantsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4E8D5281F5F7FB4001FA0BF /* ViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8D5361F5F8638001FA0BF /* adressBookViewController.h */,
+				C4E8D5371F5F8638001FA0BF /* adressBookViewController.m */,
+				C4E8D5381F5F8638001FA0BF /* adressBookViewController.xib */,
+			);
+			path = ViewCotroller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4E2E8DB1F5E6A6600C3EB23 /* Build configuration list for PBXNativeTarget "通讯录练习" */;
 			buildPhases = (
+				B16319FD57B882D61F15CE3C /* [CP] Check Pods Manifest.lock */,
 				C4E2E8AA1F5E6A6600C3EB23 /* Sources */,
 				C4E2E8AB1F5E6A6600C3EB23 /* Frameworks */,
 				C4E2E8AC1F5E6A6600C3EB23 /* Resources */,
+				45EEAC22E72B958A32C6FCD1 /* [CP] Embed Pods Frameworks */,
+				739EC56F8F3A8AD8457BF62B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +312,7 @@
 				TargetAttributes = {
 					C4E2E8AD1F5E6A6600C3EB23 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E6P5R37R82;
 						ProvisioningStyle = Automatic;
 					};
 					C4E2E8C61F5E6A6600C3EB23 = {
@@ -246,8 +352,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E8D5351F5F7FFE001FA0BF /* ViewController.xib in Resources */,
+				C4E8D53A1F5F8638001FA0BF /* adressBookViewController.xib in Resources */,
 				C4E2E8C11F5E6A6600C3EB23 /* LaunchScreen.storyboard in Resources */,
 				C4E2E8BE1F5E6A6600C3EB23 /* Assets.xcassets in Resources */,
+				C4E2E8EF1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg in Resources */,
+				C4E8D52E1F5F7FB4001FA0BF /* constantsTableViewCell.xib in Resources */,
 				C4E2E8BC1F5E6A6600C3EB23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +378,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45EEAC22E72B958A32C6FCD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-通讯录练习/Pods-通讯录练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739EC56F8F3A8AD8457BF62B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-通讯录练习/Pods-通讯录练习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16319FD57B882D61F15CE3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4E2E8AA1F5E6A6600C3EB23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E2E8B91F5E6A6600C3EB23 /* ViewController.m in Sources */,
+				C4E2E8F61F5E79F600C3EB23 /* BaseModel.m in Sources */,
+				C4E8D5391F5F8638001FA0BF /* adressBookViewController.m in Sources */,
+				C4E8D5341F5F7FFE001FA0BF /* ViewController.m in Sources */,
+				C4E8D52C1F5F7FB4001FA0BF /* constantModel.m in Sources */,
 				C4E2E8B61F5E6A6600C3EB23 /* AppDelegate.m in Sources */,
 				C4E2E8B31F5E6A6600C3EB23 /* main.m in Sources */,
+				C4E2E8FA1F5E8E8500C3EB23 /* BMChineseSort.m in Sources */,
+				C4E8D52D1F5F7FB4001FA0BF /* constantsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +587,10 @@
 		};
 		C4E2E8DC1F5E6A6600C3EB23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B670FE212C9B07D4ABDA00F0 /* Pods-通讯录练习.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E6P5R37R82;
 				INFOPLIST_FILE = "通讯录练习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-----.-----";
@@ -435,8 +600,10 @@
 		};
 		C4E2E8DD1F5E6A6600C3EB23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D3E2CD96A1AC44C2F95BC6 /* Pods-通讯录练习.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E6P5R37R82;
 				INFOPLIST_FILE = "通讯录练习/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-----.-----";
@@ -509,6 +676,7 @@
 				C4E2E8DD1F5E6A6600C3EB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E2E8DE1F5E6A6600C3EB23 /* Build configuration list for PBXNativeTarget "通讯录练习Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +685,7 @@
 				C4E2E8E01F5E6A6600C3EB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E2E8E11F5E6A6600C3EB23 /* Build configuration list for PBXNativeTarget "通讯录练习UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +694,7 @@
 				C4E2E8E31F5E6A6600C3EB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

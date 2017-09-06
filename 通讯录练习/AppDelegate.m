@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "adressBookViewController.h"
+#import "ViewController.h"
+#import <Contacts/Contacts.h>
 @interface AppDelegate ()
 
 @end
@@ -16,11 +18,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    ViewController *root = [ViewController new];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:root];
+    
+    self.window.rootViewController = nav;
+    [self requestAuthorizationForAddressBook];
     return YES;
 }
 
-
+- (void)requestAuthorizationForAddressBook {
+    CNAuthorizationStatus authorizationStatus = [CNContactStore authorizationStatusForEntityType:CNEntityTypeContacts];
+    if (authorizationStatus == CNAuthorizationStatusNotDetermined) {
+        CNContactStore *contactStore = [[CNContactStore alloc] init];
+        [contactStore requestAccessForEntityType:CNEntityTypeContacts completionHandler:^(BOOL granted, NSError * _Nullable error) {
+            if (granted) {
+                
+            } else {
+                NSLog(@"授权失败, error=%@", error);
+            }
+        }];
+    }
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
