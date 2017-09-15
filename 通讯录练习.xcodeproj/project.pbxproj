@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		23CED3F2E002087AAFFD64F3 /* libPods-通讯录练习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FF26B15610624C765E8FD5 /* libPods-通讯录练习.a */; };
+		C409A61B1F60D6EE00C0C8A6 /* AdressBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C409A6191F60D6EE00C0C8A6 /* AdressBDetailViewController.m */; };
+		C409A61C1F60D6EE00C0C8A6 /* AdressBDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C409A61A1F60D6EE00C0C8A6 /* AdressBDetailViewController.xib */; };
+		C409A61F1F60DC4D00C0C8A6 /* AdressBDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C409A61E1F60DC4D00C0C8A6 /* AdressBDetailHeadView.m */; };
+		C409A6211F60DC5800C0C8A6 /* AdressBDetailHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C409A6201F60DC5800C0C8A6 /* AdressBDetailHeadView.xib */; };
+		C409A6241F60DF1D00C0C8A6 /* JXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C409A6231F60DF1D00C0C8A6 /* JXButton.m */; };
+		C417A8031F6BA86100C05D8B /* BMChineseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = C417A8021F6BA86100C05D8B /* BMChineseSort.m */; };
 		C4E2E8B31F5E6A6600C3EB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8B21F5E6A6600C3EB23 /* main.m */; };
 		C4E2E8B61F5E6A6600C3EB23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8B51F5E6A6600C3EB23 /* AppDelegate.m */; };
 		C4E2E8BC1F5E6A6600C3EB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E2E8BA1F5E6A6600C3EB23 /* Main.storyboard */; };
@@ -17,7 +23,6 @@
 		C4E2E8D71F5E6A6600C3EB23 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8D61F5E6A6600C3EB23 /* _____UITests.m */; };
 		C4E2E8EF1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4E2E8EE1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg */; };
 		C4E2E8F61F5E79F600C3EB23 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8F51F5E79F600C3EB23 /* BaseModel.m */; };
-		C4E2E8FA1F5E8E8500C3EB23 /* BMChineseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2E8F81F5E8E8500C3EB23 /* BMChineseSort.m */; };
 		C4E8D52C1F5F7FB4001FA0BF /* constantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8D5231F5F7FB4001FA0BF /* constantModel.m */; };
 		C4E8D52D1F5F7FB4001FA0BF /* constantsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8D5261F5F7FB4001FA0BF /* constantsTableViewCell.m */; };
 		C4E8D52E1F5F7FB4001FA0BF /* constantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4E8D5271F5F7FB4001FA0BF /* constantsTableViewCell.xib */; };
@@ -48,6 +53,16 @@
 		20D3E2CD96A1AC44C2F95BC6 /* Pods-通讯录练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通讯录练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-通讯录练习/Pods-通讯录练习.release.xcconfig"; sourceTree = "<group>"; };
 		50FF26B15610624C765E8FD5 /* libPods-通讯录练习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-通讯录练习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B670FE212C9B07D4ABDA00F0 /* Pods-通讯录练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-通讯录练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-通讯录练习/Pods-通讯录练习.debug.xcconfig"; sourceTree = "<group>"; };
+		C409A6181F60D6EE00C0C8A6 /* AdressBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressBDetailViewController.h; sourceTree = "<group>"; };
+		C409A6191F60D6EE00C0C8A6 /* AdressBDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressBDetailViewController.m; sourceTree = "<group>"; };
+		C409A61A1F60D6EE00C0C8A6 /* AdressBDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdressBDetailViewController.xib; sourceTree = "<group>"; };
+		C409A61D1F60DC4D00C0C8A6 /* AdressBDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressBDetailHeadView.h; sourceTree = "<group>"; };
+		C409A61E1F60DC4D00C0C8A6 /* AdressBDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressBDetailHeadView.m; sourceTree = "<group>"; };
+		C409A6201F60DC5800C0C8A6 /* AdressBDetailHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdressBDetailHeadView.xib; sourceTree = "<group>"; };
+		C409A6221F60DF1D00C0C8A6 /* JXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXButton.h; sourceTree = "<group>"; };
+		C409A6231F60DF1D00C0C8A6 /* JXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXButton.m; sourceTree = "<group>"; };
+		C417A8011F6BA86100C05D8B /* BMChineseSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMChineseSort.h; sourceTree = "<group>"; };
+		C417A8021F6BA86100C05D8B /* BMChineseSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMChineseSort.m; sourceTree = "<group>"; };
 		C4E2E8AE1F5E6A6600C3EB23 /* 通讯录练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "通讯录练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E2E8B21F5E6A6600C3EB23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4E2E8B41F5E6A6600C3EB23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,8 +80,6 @@
 		C4E2E8EE1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "辛忠志的个人公众号二维码.jpg"; sourceTree = "<group>"; };
 		C4E2E8F41F5E79F600C3EB23 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		C4E2E8F51F5E79F600C3EB23 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		C4E2E8F71F5E8E8500C3EB23 /* BMChineseSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMChineseSort.h; sourceTree = "<group>"; };
-		C4E2E8F81F5E8E8500C3EB23 /* BMChineseSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMChineseSort.m; sourceTree = "<group>"; };
 		C4E8D5221F5F7FB4001FA0BF /* constantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constantModel.h; sourceTree = "<group>"; };
 		C4E8D5231F5F7FB4001FA0BF /* constantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constantModel.m; sourceTree = "<group>"; };
 		C4E8D5251F5F7FB4001FA0BF /* constantsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constantsTableViewCell.h; sourceTree = "<group>"; };
@@ -123,6 +136,43 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C409A6141F60D6D500C0C8A6 /* 通讯录详情 */ = {
+			isa = PBXGroup;
+			children = (
+				C409A6151F60D6D500C0C8A6 /* Controller */,
+				C409A6161F60D6D600C0C8A6 /* Model */,
+				C409A6171F60D6D600C0C8A6 /* View */,
+			);
+			path = "通讯录详情";
+			sourceTree = "<group>";
+		};
+		C409A6151F60D6D500C0C8A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C409A6181F60D6EE00C0C8A6 /* AdressBDetailViewController.h */,
+				C409A6191F60D6EE00C0C8A6 /* AdressBDetailViewController.m */,
+				C409A61A1F60D6EE00C0C8A6 /* AdressBDetailViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C409A6161F60D6D600C0C8A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C409A6171F60D6D600C0C8A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C409A61D1F60DC4D00C0C8A6 /* AdressBDetailHeadView.h */,
+				C409A61E1F60DC4D00C0C8A6 /* AdressBDetailHeadView.m */,
+				C409A6201F60DC5800C0C8A6 /* AdressBDetailHeadView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C4E2E8A51F5E6A6600C3EB23 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +198,9 @@
 		C4E2E8B01F5E6A6600C3EB23 /* 通讯录练习 */ = {
 			isa = PBXGroup;
 			children = (
+				C409A6221F60DF1D00C0C8A6 /* JXButton.h */,
+				C409A6231F60DF1D00C0C8A6 /* JXButton.m */,
+				C409A6141F60D6D500C0C8A6 /* 通讯录详情 */,
 				C4E8D5201F5F7FB4001FA0BF /* 通讯录 */,
 				C4E2E8F91F5E8E8500C3EB23 /* BMChineseSort */,
 				C4E2E8F41F5E79F600C3EB23 /* BaseModel.h */,
@@ -196,8 +249,8 @@
 		C4E2E8F91F5E8E8500C3EB23 /* BMChineseSort */ = {
 			isa = PBXGroup;
 			children = (
-				C4E2E8F71F5E8E8500C3EB23 /* BMChineseSort.h */,
-				C4E2E8F81F5E8E8500C3EB23 /* BMChineseSort.m */,
+				C417A8011F6BA86100C05D8B /* BMChineseSort.h */,
+				C417A8021F6BA86100C05D8B /* BMChineseSort.m */,
 			);
 			name = BMChineseSort;
 			path = "../../../../../Downloads/BMChineseSort-master/BMChineseSorting/BMChineseStringSort";
@@ -358,6 +411,8 @@
 				C4E2E8BE1F5E6A6600C3EB23 /* Assets.xcassets in Resources */,
 				C4E2E8EF1F5E74A300C3EB23 /* 辛忠志的个人公众号二维码.jpg in Resources */,
 				C4E8D52E1F5F7FB4001FA0BF /* constantsTableViewCell.xib in Resources */,
+				C409A61C1F60D6EE00C0C8A6 /* AdressBDetailViewController.xib in Resources */,
+				C409A6211F60DC5800C0C8A6 /* AdressBDetailHeadView.xib in Resources */,
 				C4E2E8BC1F5E6A6600C3EB23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,13 +487,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4E2E8F61F5E79F600C3EB23 /* BaseModel.m in Sources */,
+				C409A6241F60DF1D00C0C8A6 /* JXButton.m in Sources */,
 				C4E8D5391F5F8638001FA0BF /* adressBookViewController.m in Sources */,
 				C4E8D5341F5F7FFE001FA0BF /* ViewController.m in Sources */,
 				C4E8D52C1F5F7FB4001FA0BF /* constantModel.m in Sources */,
 				C4E2E8B61F5E6A6600C3EB23 /* AppDelegate.m in Sources */,
 				C4E2E8B31F5E6A6600C3EB23 /* main.m in Sources */,
-				C4E2E8FA1F5E8E8500C3EB23 /* BMChineseSort.m in Sources */,
+				C409A61F1F60DC4D00C0C8A6 /* AdressBDetailHeadView.m in Sources */,
 				C4E8D52D1F5F7FB4001FA0BF /* constantsTableViewCell.m in Sources */,
+				C417A8031F6BA86100C05D8B /* BMChineseSort.m in Sources */,
+				C409A61B1F60D6EE00C0C8A6 /* AdressBDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,12 @@
 #define kSCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
 #define kSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #import "adressBookViewController.h"
+#import "AdressBDetailViewController.h"
+#pragma mark ----------------------- 系统类型 -----------------------
 #import <ContactsUI/ContactsUI.h>
+#pragma mark ----------------------- View类型 -----------------------
 #import "constantsTableViewCell.h"
+#pragma mark ----------------------- Model类型 -----------------------
 #import "JSONModel.h"
 #import "BMChineseSort.h"
 @interface adressBookViewController ()<CNContactPickerDelegate,UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate,UISearchDisplayDelegate>
@@ -24,6 +28,7 @@
 @property(nonatomic,strong)NSMutableArray *letterResultArr;
 @property (strong,nonatomic)NSMutableArray * searchResultArray;/*搜索完之后的数据(数组类型)*/
 @property (strong,nonatomic)NSMutableArray * searchModelResultArray;/*搜索完之后的数据(model类型)*/
+@property (strong,nonatomic)NSMutableArray * contactsModelSourceList;
 /**我们的UISearchDisplayController*/
 @property (nonatomic, strong) UISearchDisplayController *displayer;
 @end
@@ -118,6 +123,8 @@
         [self.contactsSourceList addObject:model];
     }
     self.letterResultArr = [BMChineseSort sortObjectArray:self.contactsSourceList Key:@"familName"];
+    
+    
     NSLog(@"%@",self.letterResultArr);
     [self.mainTableView reloadData];
 }
@@ -209,13 +216,13 @@
     }
     /*传统类型的*/
     else{
-        NSMutableArray * arr = [NSMutableArray array];
+        self.contactsModelSourceList = [NSMutableArray array];
         @try {
             NSLog(@"%@",self.letterResultArr);
-            arr = self.letterResultArr [indexPath.section];
-            NSLog(@"%@",arr);
+            self.contactsModelSourceList = self.letterResultArr [indexPath.section];
+            NSLog(@"%@",self.contactsModelSourceList);
             //调用方法，给单元格赋值
-            constantModel * model = arr[indexPath.row];
+            constantModel * model = self.contactsModelSourceList[indexPath.row];
             
             [cell addInfoModel:model];
         } @catch (NSException *exception) {
@@ -235,6 +242,31 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 30;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    /*因为两者的数据是不一样的所以分开写*/
+    
+    if (tableView == self.displayer.searchResultsTableView) {
+        constantModel * model = self.searchModelResultArray[indexPath.row];
+        AdressBDetailViewController * vc = [[AdressBDetailViewController alloc]init];
+        vc.familName = model.familName ;
+        vc.phoneNumber = model.phoneNumber;
+        NSLog(@"%@",model.familName);
+        NSLog(@"%@",model.phoneNumber);
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }else{
+        self.contactsModelSourceList = self.letterResultArr [indexPath.section];
+        NSLog(@"%@",self.contactsModelSourceList);
+        //调用方法，给单元格赋值
+        constantModel * model = self.contactsModelSourceList[indexPath.row];
+        AdressBDetailViewController * vc = [[AdressBDetailViewController alloc]init];
+        vc.familName = model.familName ;
+        vc.phoneNumber = model.phoneNumber;
+        NSLog(@"%@",model.familName);
+        NSLog(@"%@",model.phoneNumber);
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar
